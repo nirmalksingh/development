@@ -1,7 +1,0 @@
-String wrong_sequence_reset = GuessRevealerConstants.NEW_LINE
-				             + GuessRevealerConstants.NEW_LINE
-							 + GuessRevealerConstants.NEW_LINE
-							 +"end"
-				+ GuessRevealerConstants.NEW_LINE
-				+ GuessRevealerConstants.NEW_LINE
-				+"end";
