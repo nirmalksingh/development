@@ -5,6 +5,11 @@ import java.util.Scanner;
 import nirmalksingh.bogspot.com.algo.GuessRevealerConstants;
 import nirmalksingh.bogspot.com.algo.RevealerInStream;
 
+/**
+ * 
+ * @author nirmalksingh
+ *
+ */
 
 public class GuessRevealerApp {
 

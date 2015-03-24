@@ -7,6 +7,12 @@ import nirmalksingh.bogspot.com.algo.GuessRevealerConstants;
 import nirmalksingh.bogspot.com.algo.InputScanner;
 import nirmalksingh.bogspot.com.algo.MyByteArrOutStream;
 
+/**
+ * 
+ * @author nirmalksingh
+ *
+ */
+
 public class MakeReadyMethod {
 	
 	static Scanner inputScanner = InputScanner.INSTANCE;// new Scanner(System.in);
