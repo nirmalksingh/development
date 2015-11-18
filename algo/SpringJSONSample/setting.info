@@ -1,0 +1,26 @@
+
+DROP TABLE IF EXISTS tbluser;
+
+CREATE TABLE tbluser
+(
+userid int NOT NULL AUTO_INCREMENT,
+firstname VARCHAR(255) NOT NULL,
+lastname VARCHAR(255) NOT NULL,
+email VARCHAR(255) NOT NULL,
+PRIMARY KEY (userid),
+CONSTRAINT unq_rw UNIQUE (firstname,lastname,email)
+);
+
+
+
+DROP TABLE IF EXISTS `tbluser`;
+CREATE TABLE `tbluser` (`firstname` varchar(50),`lastname` varchar(50),`email` varchar(50));
+
+SHOW GLOBAL VARIABLES LIKE 'PORT';
+
+
+
+http://localhost:8080/SpringJSONSample/service/user/addUrlUser?firstname=Peter&lastname=Starbucks&email=peterstarbucksemailcom
+
+
+//http://www.codejava.net/frameworks/spring/14-tips-for-writing-spring-mvc-controller
